@@ -1,0 +1,19 @@
+.form {
+  text-align: center;
+}
+.form {
+  background-color: aqua;
+  height: 400px;
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.from2 {
+  background-color: brown;
+  height: 300px;
+  width: 300px;
+  text-align: center;
+  padding-top: 20%;
+}

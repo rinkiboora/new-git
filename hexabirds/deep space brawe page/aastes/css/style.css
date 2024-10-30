@@ -1,0 +1,564 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&family=Mandali&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none !important;
+  box-sizing: border-box !important;
+  text-decoration: none !important;
+  font-family: 'Grandstander', cursive;
+  font-family: 'Mandali', sans-serif;
+}
+.body {
+  background-color: #090128;
+}
+ul {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+:root {
+  /* =========font size======== */
+  --fs_16: 16px;
+  --fs_20: 20px;
+  --fs_18: 18px;
+  --fs_70: 70px;
+  --fs_12: 12px;
+  --fs_32: 32px;
+  --fs_24: 24px;
+  --fs_24: 24px;
+
+  /* =============line heigth========= */
+  --ln_96: 17.96px;
+  --ln_34: 24.34px;
+  --ln_94: 23.94px;
+  --ln_83: 69.83px;
+  --ln_27: 27px;
+  --ln_24: 24px;
+  --ln_95: 19.95px;
+  --ln_52: 19.52px;
+  --ln_63: 63.27px;
+
+  /* ========font width========= */
+
+  --fw_400: 400;
+  --fw_500: 500;
+  --fw_600: 600;
+  --fw_100: 100;
+
+  /* =======font fmaily========== */
+  --ff_Grandstander: 'Grandstander', cursive;
+  --ff_Mandali: 'Mandali', sans-serif;
+  /* ==============color============= */
+  --clr_white: #ffffff;
+}
+
+.fs_16 {
+  font-size: var(--fs_16);
+}
+.fs_18 {
+  font-size: var(--fs_18);
+}
+.fs_24 {
+  font-size: var(--fs_24);
+}
+.fs_16 {
+  font-size: var(--fs_16);
+}
+.fs_70 {
+  font-size: var(--fs_70);
+}
+.fs_32 {
+  font-size: var(--fs_32);
+}
+.fs_20 {
+  font-size: var(--fs_20);
+}
+.fs_12 {
+  font-size: var(--fs_12);
+}
+.fw_400 {
+  font-weight: var(--fw_400);
+}
+.fw_500 {
+  font-weight: var(--fw_500);
+}
+.fw_100 {
+  font-weight: var(--fw_100);
+}
+.fw_600 {
+  font-weight: var(--fw_800);
+}
+/* ============font fmaily=========== */
+.ff_Grandstander {
+  font-family: var(--ff_Grandstander);
+}
+.ff_Mandali {
+  font-family: var(--ff_Mandali);
+}
+/* ===========color============= */
+.clr_white {
+  color: var(--clr_white);
+}
+/* =============line heigth========== */
+
+.ln_96 {
+  line-height: var(--ln_96);
+}
+.ln_34 {
+  line-height: var(--ln_34);
+}
+.ln_94 {
+  line-height: var(--ln_94);
+}
+.ln_83 {
+  line-height: var(--ln_83);
+}
+.ln_27 {
+  line-height: var(--ln_27);
+}
+.ln_63 {
+  line-height: var(--ln_63);
+}
+.ln_24 {
+  line-height: var(--ln_24);
+}
+.ln_95 {
+  line-height: var(--ln_95);
+}
+.ln_92 {
+  line-height: var(--ln_92);
+}
+/* **************** deep Space Brawl************************ */
+.hero_img {
+  background-image: url('../img/Group\ 3.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 120vh;
+}
+.bg_black {
+  background-color: #00000043;
+  padding-top: 41px;
+  padding-bottom: 41px;
+}
+.btn_play {
+  padding: 20px 53px;
+  background: linear-gradient(180deg, #ff00f4 0%, #3d78fe 100%);
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+}
+.btn_play:hover {
+  transform: scaleY(1.1);
+  transition: all ease-out 200ms;
+}
+.border_gif {
+  border: 2px solid #3d78fe;
+  border-radius: 10px;
+}
+.img_uf01 {
+  right: 4%;
+  bottom: 60px;
+}
+.img_bg {
+  background-image: url('../img/Group\ \(11\).png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  opacity: 10;
+}
+.img_bg::after {
+  content: '';
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(56.32% 89.94% at 50.44% 49.6%, #13006978 0%, #070b15e1 100%);
+}
+.pt_6 {
+  padding-top: 223px;
+}
+/* ************About us********************* */
+.img_crcl_1 {
+  top: 0;
+  left: 7px;
+}
+.img_crcl_2 {
+  top: 0;
+  right: 0;
+}
+.img_crcl_3 {
+  width: 20%;
+  left: 0;
+  bottom: 2%;
+  z-index: 4;
+}
+/* **************Game Play***************88 */
+.img_uranus {
+  left: 15%;
+  top: 6%;
+  z-index: -1;
+}
+.img_sdsdssz {
+  right: 12%;
+  top: 0%;
+  z-index: -1;
+}
+.img {
+  right: 0%;
+  top: 50%;
+  z-index: -1;
+}
+.img_bg_game {
+  background-image: url('../img/Group\ 23.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  min-height: 120vh;
+}
+/* *********************************** */
+/* *************Team***************88 */
+.img_gril {
+  left: 12.4%;
+  top: 10%;
+}
+
+/* *****************Roadmap****************/
+.text_Phase_1 {
+  top: 15%;
+  left: 40%;
+}
+.text_phase_2 {
+  bottom: 55%;
+  left: 40%;
+}
+.text_Phase_3 {
+  bottom: 38%;
+  left: 40%;
+}
+.text_phase_4 {
+  bottom: 20%;
+  left: 40%;
+}
+.text_Phase_5 {
+  left: 60%;
+  bottom: 0%;
+}
+.img_UF {
+  top: 35%;
+  left: -1%;
+}
+.img_rocket {
+  bottom: 0%;
+  animation: rocket2 infinite linear 2s;
+}
+@keyframes rocket2 {
+  0% {
+    transform: translatex(6%);
+  }
+  100% {
+    transform: translatey(-10%);
+  }
+}
+.img_rocket2 {
+  right: 0;
+  top: 15%;
+  animation: rocket infinite linear 2s;
+}
+@keyframes rocket {
+  0% {
+    transform: translatex(20%);
+  }
+  100% {
+    transform: translatey(-10%);
+  }
+}
+.img_sdfdse {
+  right: 0;
+  bottom: 30%;
+}
+.bg_dark {
+  background: linear-gradient(
+    180deg,
+    #090128 0%,
+    rgba(1, 0, 4, 0.4) 11.25%,
+    rgba(3, 0, 12, 0.2) 29.48%,
+    rgba(4, 0, 19, 0.31) 48.23%,
+    rgba(6, 1, 28, 0.47) 69.06%,
+    rgba(9, 1, 40, 0.51) 85.73%,
+    #090128 100%
+  );
+}
+
+.border_dotted {
+  position: relative;
+}
+.border_dotted::after {
+  content: ' ';
+  position: absolute;
+  border: dotted;
+  height: 100%;
+  width: 10px;
+  background-color: rgb(255, 255, 255);
+  left: 10%;
+  z-index: -1;
+}
+.img_road {
+  position: relative;
+}
+
+.img_road::after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url('../img/Group\ 14\ \(1\).png');
+  background-repeat: no-repeat;
+  top: -25%;
+  left: -30%;
+}
+/* *************end************** */
+/* ***************accordion**************** */
+.accordion-item {
+  --bs-accordion-bg: #60efff09 !important;
+}
+.accordion-button:not(.collapsed) {
+  color: var(--bs-accordion-active-color);
+  background-color: transparent !important;
+}
+.accordion-button {
+  padding: 25px 15px !important;
+  color: white !important;
+  background: transparent !important;
+
+  margin-top: 2% !important;
+  border-radius: 10px !important;
+  border: 2px solid rgb(70, 70, 208) !important;
+}
+.accordion-button:focus {
+  z-index: 3;
+  border-color: var(--bs-accordion-btn-focus-border-color);
+  outline: 0;
+  box-shadow: none !important;
+}
+.accordion {
+  --bs-accordion-border-width: none !important;
+}
+.accordion-item {
+  color: var(--bs-accordion-color);
+  background-color: var(--bs-accordion-bg);
+  border: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color);
+}
+
+.accordion-item {
+  --bs-accordion-bg: transparent !important;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url('../img/Vector\ \(30\).png') !important;
+}
+
+.accordion-button::after {
+  background-image: url('../img/Vector\ \(30\).png') !important;
+}
+.img_accordion {
+  right: 10%;
+  bottom: 10%;
+}
+/* ******************accordion end****************** */
+
+/* ************FAQ***************8 */
+.bg_img_night {
+  background-image: url('../img/galaxy-night-panorama\ 1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.bg_img_night::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  background-color: #0f004aae;
+}
+.img_deep {
+  position: absolute;
+  bottom: 35%;
+  left: 50%;
+}
+.img_icon {
+  position: absolute;
+  bottom: 25%;
+  left: 45%;
+}
+.text_lorum {
+  left: 30%;
+  bottom: 3%;
+}
+.z_index_10 {
+  z-index: 7;
+}
+.img_hover:hover {
+  transform: scale(1.1);
+  transition: 2s;
+}
+.hover_home:hover {
+  -webkit-text-stroke-width: 0.7px !important;
+  -webkit-text-stroke-color: white !important;
+}
+.man_div_slider {
+  transform: rotate(5deg);
+}
+/* *************media************** */
+
+@media (max-width: 1400px) {
+  :root {
+    --fs_16: 16px;
+    --fs_20: 20px;
+    --fs_18: 18px;
+    --fs_70: 70px;
+    --fs_12: 12px;
+    --fs_32: 32px;
+    --fs_24: 24px;
+  }
+  .w_60 {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .w_66 {
+    width: 100%;
+  }
+  .w_77 {
+    width: 77%;
+  }
+}
+@media (max-width: 1200px) {
+  :root {
+    --fs_16: 16px;
+    --fs_20: 20px;
+    --fs_18: 18px;
+    --fs_70: 70px;
+    --fs_12: 12px;
+    --fs_32: 32px;
+    --fs_24: 24px;
+  }
+  .img_gril {
+    left: 14.4%;
+    top: 10%;
+  }
+  .w_66 {
+    width: 66%;
+  }
+
+  .text_lorum {
+    left: 36%;
+    bottom: 3%;
+  }
+}
+@media (max-width: 992px) {
+  :root {
+    --fs_16: 12px;
+    --fs_20: 15px;
+    --fs_18: 14px;
+    --fs_70: 58px;
+    --fs_12: 12px;
+    --fs_32: 27px;
+    --fs_24: 24px;
+  }
+  .w_100 {
+    width: 90%;
+  }
+
+  .nav {
+    position: fixed;
+    flex-direction: column;
+    background: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 14%;
+    left: -100%;
+    width: 100%;
+    height: 100vh;
+    transition: 300ms;
+    z-index: 5;
+  }
+  .img_deep {
+    left: 33%;
+    bottom: 55%;
+  }
+  .img_icon {
+    position: absolute;
+    bottom: 43%;
+    left: 27%;
+  }
+}
+@media (max-width: 768px) {
+  :root {
+    --fs_16: 12px;
+    --fs_20: 14px;
+    --fs_18: 15px;
+    --fs_70: 54px;
+    --fs_12: 12px;
+    --fs_32: 28px;
+    --fs_24: 24px;
+  }
+  .w_100 {
+    width: 90%;
+  }
+  .img_icon {
+    left: 15%;
+    bottom: 43%;
+  }
+  .img_deep {
+    left: 25%;
+    bottom: 55%;
+  }
+}
+@media (max-width: 576px) {
+  :root {
+    --fs_16: 10px;
+    --fs_20: 11px;
+    --fs_18: 11px;
+    --fs_70: 50px;
+    --fs_12: 12px;
+    --fs_32: 21px;
+    --fs_24: 20px;
+
+    /* ==============line-height================== */
+    --ln_96: 17.96px;
+    --ln_34: 24.34px;
+    --ln_94: 23.94px;
+    --ln_83: 69.83px;
+    --ln_27: 27px;
+    --ln_24: 24px;
+    --ln_95: 19.95px;
+    --ln_52: 19.52px;
+    --ln_63: 63.27px;
+  }
+
+  .w_100 {
+    width: 90%;
+  }
+  .w_20 {
+    width: 40%;
+  }
+  .img_gril {
+    left: 16.4%;
+    top: 9%;
+  }
+
+  .text_lorum {
+    left: 41%;
+  }
+  .img_deep {
+    position: absolute;
+    bottom: 63%;
+    left: 12%;
+  }
+  .img_icon {
+    position: absolute;
+    bottom: 40%;
+    left: 8%;
+  }
+}

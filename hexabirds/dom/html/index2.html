@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .crucl {
+            border: 3px dotted red;
+            height: 300px;
+            width: 300px;
+            background-color: yellow;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+        }
+
+        .roted {
+            animation: roted 2s linear infinite;
+        }
+
+        @keyframes roted {
+            0% {
+                transform: rotate(0deg);
+            }
+
+
+            100% {
+                transform: rotate(-360deg);
+            }
+
+
+        }
+
+        .button {
+            padding: 10px 30px;
+            background-color: yellow;
+            border-radius: 20px;
+            margin-top: 15px;
+            font-size: 14px;
+        }
+
+        /******************  right  **************************/
+        .crucl_right {
+            border: 5px dotted rgb(242, 255, 0);
+            height: 300px;
+            width: 300px;
+            background-color: rgb(249, 6, 6);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+
+        }
+
+        .roted_right {
+            animation: roted_2 2s linear infinite;
+        }
+
+        @keyframes roted_2 {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .button_right {
+            padding: 10px 30px;
+            background-color: red;
+            border-radius: 20px;
+            margin-top: 15px;
+            font-size: 14px;
+
+        }
+
+        .d_flex {
+            display: flex;
+            justify-content: space-evenly;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="d_flex">
+        <div>
+            <div class="crucl">Lift</div>
+            <button class="button">Button</button>
+        </div>
+        <div>
+            <div class="crucl_right">Right</div>
+            <button class="button_right">Button</button>
+        </div>
+    </div>
+    <script src="../dom.js"></script>
+</body>
+
+</html>

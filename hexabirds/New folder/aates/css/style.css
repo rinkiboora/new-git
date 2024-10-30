@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none !important;
+  box-sizing: border-box !important;
+  text-decoration: none !important;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  /* ==============font size================= */
+  --fs_xsm: 14px;
+  --fs_sm: 16px;
+  --fs_md: 18px;
+  --fs_base: 20px;
+  --fs_lg: 24px;
+  --fs_xl: 35px;
+  --fs_2xl: 50px;
+  --fs_3xl: 60px;
+  /* ==============font weigth================= */
+  --fw_normal: 300;
+  --fw_medium: 400;
+  --fw_bold: 500;
+  --fw_xbold: 600;
+  /* ============font color ==============*/
+  --clr_white: #ffffff;
+  --clr_black: #000000;
+  --clr_2gray: #a6a6ab;
+  --clr_gray: #73737b;
+  --clr_dark: #0a142f;
+  /* ============= bg clr============== */
+  --bg_blue: #5b51de;
+}
+/* ==============font size================= */
+.fs_xsm {
+  font-size: var(--fs_xsm);
+}
+.fs_sm {
+  font-size: var(--fs_sm);
+}
+.fs_md {
+  font-size: var(--fs_md);
+}
+.fs_base {
+  font-size: var(--fs_base);
+}
+.fs_lg {
+  font-size: var(--fs_lg);
+}
+.fs_xl {
+  font-size: var(--fs_xl);
+}
+.fs_2xl {
+  font-size: var(--fs_2xl);
+}
+.fs_3xl {
+  font-size: var(--fs_3xl);
+}
+
+/* ==============font weigth================= */
+.fw_normal {
+  font-weight: var(--fw_normal);
+}
+.fw_medium {
+  font-weight: var(--fw_medium);
+}
+.fw_bold {
+  font-weight: var(--fw_bold);
+}
+.fw_xbold {
+  font-weight: var(--fw_xbold);
+}
+/* ============font color ==============*/
+.clr_gray {
+  color: var(--clr_gray);
+}
+.clr_2gray {
+  color: var(--clr_2gray);
+}
+.clr_dark {
+  color: var(--clr_dark);
+}
+.bg_blue {
+  background-color: var(--bg_blue);
+}
+.clr_black {
+  color: var(--clr_black);
+}
+.clr_white {
+  color: var(--clr_white);
+}
+.border_dotted {
+  border: 1px dashed rgb(200, 196, 196);
+  width: 70%;
+}
+.img2 {
+  position: relative;
+}
+.img {
+  position: absolute;
+  bottom: -15%;
+  left: -40%;
+  z-index: -1;
+}
+.hover_line::after {
+  content: '';
+  display: block;
+  width: 0%;
+  height: 2px;
+  background-color: blue;
+}
+.hover_line:hover::after {
+  width: 100%;
+  transition: 1s;
+}
+.hover:hover {
+  transform: scale(1.2);
+}
+.img_rotate {
+  animation: rotate linear infinite 3s;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.img_rotate2 {
+  animation: car linear infinite 3s;
+}
+@keyframes car {
+  0% {
+    transform: translateX(0px);
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    transform: translatex(-80px);
+    opacity: 0;
+  }
+}
+.img_rotate3 {
+  animation: pic linear infinite 1s;
+}
+@keyframes pic {
+  0% {
+    transform: scaleY(1.4);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scaleY(1.1);
+  }
+}
+.button {
+  border: none;
+  height: 67px;
+  width: 123px;
+  border-radius: 5px;
+  transition: 0.1s;
+}
+.button:hover {
+  box-shadow: 0 0 0 3px blue;
+}
+.button2 {
+  border: none;
+  height: 67px;
+  width: 158px;
+  border-radius: 5px;
+  transition: 0.1s;
+}
+.button2:hover {
+  box-shadow: 0 0 0 3px blue;
+}
+@media (max-width: 576px) {
+  :root {
+    --fs_xsm: 14px;
+    --fs_sm: 13px;
+    --fs_md: 11px;
+    --fs_base: 14px;
+    --fs_lg: 18px;
+    --fs_xl: 23px;
+    --fs_2xl: 25px;
+    --fs_3xl: 26px;
+  }
+}
+@media (min-width: 576px) {
+  :root {
+    --fs_xsm: 14px;
+    --fs_sm: 12px;
+    --fs_md: 18px;
+    --fs_base: 20px;
+    --fs_lg: 23px;
+    --fs_xl: 31px;
+    --fs_2xl: 47px;
+    --fs_3xl: 39px;
+  }
+}
+@media (min-width: 768px) {
+  :root {
+    --fs_xsm: 14px;
+    --fs_sm: 12px;
+    --fs_md: 12px;
+    --fs_base: 16px;
+    --fs_lg: 16px;
+    --fs_xl: 26px;
+    --fs_2xl: 44px;
+    --fs_3xl: 36px;
+  }
+  .button2:hover {
+    box-shadow: 0 0 0 3px blue;
+  }
+}
+@media (min-width: 992px) {
+  :root {
+    --fs_xsm: 14px;
+    --fs_sm: 16px;
+    --fs_md: 18px;
+    --fs_base: 18px;
+    --fs_lg: 22px;
+    --fs_xl: 35px;
+    --fs_2xl: 31px;
+    --fs_3xl: 52px;
+  }
+  .w_20 {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  :root {
+    --fs_xsm: 14px;
+    --fs_sm: 16px;
+    --fs_md: 18px;
+    --fs_base: 20px;
+    --fs_lg: 24px;
+    --fs_xl: 35px;
+    --fs_2xl: 50px;
+    --fs_3xl: 60px;
+  }
+}
+.box {
+  background-color: #0a142f;
+  height: 300px;
+  width: 400px;
+  margin: 0 auto;
+  clip-path: polygon(50%);
+  margin-bottom: 40%;
+}

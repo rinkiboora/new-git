@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none !important;
+  box-sizing: border-box !important;
+  text-decoration: none !important;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Playfair Display', serif;
+}
+
+ul {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+:root {
+  /* =========font size======== */
+  --fs_16: 16px;
+  --fs_20: 20px;
+  --fs_18: 18px;
+  --fs_36: 36px;
+  --fs_56: 56px;
+  --fs_24: 24px;
+  --fs_48: 48px;
+  --fs_14: 14px;
+  --fs_28: 28px;
+
+  /* =============line heigth========= */
+  --ln_28: 28px;
+  --ln_24: 24px;
+  --ln_20: 20px;
+  --ln_64: 64px;
+  --ln_32: 32px;
+  --ln_48: 48px;
+  --ln_64: 64px;
+
+  /* ========font width========= */
+  --fw_400: 400;
+  --fw_600: 600;
+  --fw_700: 700;
+  --fw_500: 500;
+  --fw_900: 900;
+  /* *************font-family*************** */
+  --ff_Inter: 'Inter', sans-serif;
+  --ff_Poetsen: 'Poetsen One', sans-serif;
+  /* ********* color******** */
+  /* ********* color******** */
+  --clr_blue: #232536;
+  --clr_yellow: #ffd050;
+  --bg_yellow: #ffd050;
+  --bg_blue2: #592ea9;
+  --clr_blue2: #592ea9;
+  --clr_grye: #6d6e76;
+  --clr_white: #ffff;
+  --clr_black: #000;
+}
+/* *********** font size */
+.fs_16 {
+  font-size: var(--fs_16);
+}
+.fs_18 {
+  font-size: var(--fs_18);
+}
+.fs_56 {
+  font-size: var(--fs_56);
+}
+.fs_36 {
+  font-size: var(--fs_36);
+}
+.fs_30 {
+  font-size: var(--fs_30);
+}
+.fs_24 {
+  font-size: var(--fs_24);
+}
+.fs_20 {
+  font-size: var(--fs_20);
+}
+.fs_28 {
+  font-size: var(--fs_28);
+}
+.fs_14 {
+  font-size: var(--fs_14);
+}
+.fs_48 {
+  font-size: var(--fs_48);
+}
+.fs_20 {
+  font-size: var(--fs_20);
+}
+/* **********font whigth***************** */
+.fw_400 {
+  font-weight: var(--fw_400);
+}
+.fw_700 {
+  font-weight: var(--fw_700);
+}
+.fw_600 {
+  font-weight: var(--fw_600);
+}
+.fw_500 {
+  font-weight: var(--fw_500);
+}
+.fw_900 {
+  font-weight: var(--fw_900);
+}
+/* ============font fmaily=========== */
+.ff_inter {
+  font-family: var(--ff_Inter);
+}
+.ff_sen {
+  font-family: var(--ff_Poetsen);
+}
+/* ===========color============= */
+.clr_black {
+  color: var(--clr_black);
+}
+.clr_blue {
+  color: var(--clr_blue);
+}
+.clr_yellow {
+  color: var(--clr_yellow);
+}
+.bg_yellow {
+  color: var(--bg_yellow);
+}
+.bg_blue2 {
+  background-color: var(--bg_blue2);
+}
+.clr_blue2 {
+  color: var(--clr_blue2);
+}
+.clr_grye {
+  color: var(--bg_grye);
+}
+.clr_white {
+  color: var(--clr_white);
+}
+.bg_clr {
+  background-color: #232536;
+}
+.btn_sub {
+  padding: 16px;
+  background-color: white;
+  color: #232536;
+}
+.bg_img {
+  background-image: url('../src/assets/img/man\ img.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+}
+.bg_color::after {
+  content: ' ';
+  position: absolute;
+  background: radial-gradient(
+    30.56% 76.04% at 74.58% 0%,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+  height: 100vh;
+  width: 100%;
+  top: 0;
+}
+.btn_read {
+  padding: 19px;
+  background-color: #ffd050;
+}
+.card:hover {
+  background-color: #ffd050;
+  border: 2px solid #ffd050;
+}
+.box2 {
+  background-color: #f4f4f4;
+}
+.box2:hover {
+  background-color: #fbf6ea;
+}
+.footer_clr {
+  background-color: #2e3040;
+}
+.input {
+  background-color: transparent;
+  border: 2px solid rgb(76, 70, 70);
+}
+.btn_footer {
+  background-color: #ffd050;
+  padding: 13px 48px;
+}
+.color {
+  background-color: #f4f0f8;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .main {
+        height: 400px;
+        width: 400px;
+        background-color: cadetblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+    }
+
+    .child {
+        height: 300px;
+        width: 300px;
+        background-color: deepskyblue;
+        border-radius: 20px;
+    }
+
+    .hading {
+        height: 70px;
+        width: 200px;
+        background-color: khaki;
+        margin: 0 auto;
+        margin-top: 30%;
+        text-align: center;
+        border-radius: 20px;
+
+    }
+
+    .color {
+        background-color: red;
+    }
+</style>
+
+<body>
+    <div class="main">
+        <div class="child">
+            <h1 class="hading">hello sir </h1>
+        </div>
+    </div>
+    <ul>
+        <li>Num 1</li>
+        <li>Num 2</li>
+        <li>Num 3</li>
+        <li>Num 4</li>
+        <li>Num 5</li>
+        <li>Num 6</li>
+        <li>Num 7</li>
+
+
+    </ul>
+    <h1>hello sir</h1>
+    <script>
+
+        // let body = document.body;
+        // let main = document.querySelector('.main')
+        // let child = document.querySelector('.child')
+        // let hading = document.querySelector('.hading')
+        // body.addEventListener('click', (e) => {
+        //     e.target.style.backgroundColor = 'red'
+        // })
+
+
+        // let a = document.querySelector('h1')
+        // console.log(a);
+        // let a = document.querySelector('h1')
+        // a.innerHTML = 'chaged html  '
+
+        let ul = document.querySelector('ul')
+        addEventListener("click", function (e) {
+            let color = document.querySelector(".color");
+            if (color) {
+                color.classList.remove("color");
+            }
+            e.target.classList.add("color");
+
+        });
+    </script>
+</body>
+
+</html>

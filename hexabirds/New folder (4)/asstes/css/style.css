@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none !important;
+  box-sizing: border-box !important;
+  list-style-type: none !important;
+}
+
+/* .man {
+  border: 2px solid royalblue;
+  height: 400px;
+  width: 400px;
+  display: flex;
+}
+.box:nth-child(1) {
+  background-color: #0f6e8c;
+}
+.box:nth-child(2) {
+  background-color: #0f8c39;
+  flex-grow: 3;
+}
+.box:nth-child(3) {
+  background-color: #8c3d0f;
+}
+.box:nth-child(4) {
+  background-color: #220f8c;
+}
+.box {
+  flex-grow: 1;
+} */
+
+/* .line {
+  position: relative;
+}
+.line::after {
+  content: '';
+  width: 5px;
+  height: 100%;
+  position: absolute;
+  background-color: chartreuse;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
+.w_40 {
+  width: 40%;
+}
+.crcl {
+  position: relative;
+}
+.fs_6 {
+  font-size: small;
+}
+.crcl::after {
+  content: '';
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  background-color: brown;
+  border-radius: 50%;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
+@media (max-width: 768px) {
+  .line::after {
+    content: '';
+    width: 5px;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(43, 255, 0);
+    top: 0;
+    left: 0%;
+    transform: translateX(0);
+    z-index: -1;
+  }
+  .crcl::after {
+    content: '';
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background-color: brown;
+    border-radius: 50%;
+    left: 0%;
+    top: 0;
+    transform: translateX(-50%);
+    .w_40 {
+      width: 90%;
+    }
+  }
+} */
+
+/* @media (max-width: 992px) {
+  .nav {
+    position: absolute;
+    bottom: 0;
+    left: -100%;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 162, 162);
+    transition: 2s;
+  }
+} */
+@media (max-width: 992px) {
+  .nav {
+    position: absolute;
+    left: -100%;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    transition: 2s;
+    background-color: rgb(39, 209, 209);
+  }
+}

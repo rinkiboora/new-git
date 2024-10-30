@@ -1,0 +1,48 @@
+.card {
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  height: 550px;
+  align-items: center;
+  background-image: url(./img/360.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  margin: 0 auto;
+}
+.pt-5 {
+  padding-top: 30px;
+}
+.button {
+  padding: 10px 30px;
+  font-size: 16px;
+}
+.button:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+.w_100 {
+  width: 300px;
+  padding: 4px;
+}
+.card2 {
+  width: 400px;
+  padding-left: 20px;
+  margin-top: 20px;
+  background-image: url(./img/rose-6954137_640.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+  color: white;
+  padding: 10px;
+}
+
+.box {
+  height: 400px;
+  width: 400px;
+  background-color: rgb(15, 15, 15);
+  color: white;
+  margin: 0 auto;
+  align-items: center;
+}
+

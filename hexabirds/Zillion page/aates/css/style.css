@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none !important;
+  box-sizing: border-box !important;
+  text-decoration: none !important;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  /* ==============font size================= */
+  --fs_xsm: 16px;
+  --fs_sm: 17px;
+  --fs_md: 20px;
+  --fs_base: 30px;
+  --fs_lg: 35px;
+  --fs_xl: 60px;
+
+  /* ==============font weigth================= */
+  --fw_normal: 400;
+  --fw_medium: 500;
+  --fw_bold: 600;
+  --fw_xbold: 700;
+  /* ============font color ==============*/
+  --clr_white: #ffffff;
+  --clr_black: #000000;
+  --bg_black: #000000;
+  --bg_white: #ffffff;
+  --clr_gray: #515151;
+}
+/* ==============font size================= */
+.fs_xsm {
+  font-size: var(--fs_xsm);
+}
+.fs_sm {
+  font-size: var(--fs_sm);
+}
+.fs_md {
+  font-size: var(--fs_md);
+}
+.fs_base {
+  font-size: var(--fs_base);
+}
+.fs_lg {
+  font-size: var(--fs_lg);
+}
+.fs_xl {
+  font-size: var(--fs_xl);
+}
+
+/* ==============font weigth================= */
+.fw_normal {
+  font-weight: var(--fw_normal);
+}
+.fw_medium {
+  font-weight: var(--fw_medium);
+}
+.fw_bold {
+  font-weight: var(--fw_bold);
+}
+.fw_xbold {
+  font-weight: var(--fw_xbold);
+}
+/* ============font color ==============*/
+.clr_gray {
+  color: var(--clr_gray);
+}
+.clr_black {
+  color: var(--clr_black);
+}
+.clr_white {
+  color: var(--clr_white);
+}
+.bg_white {
+  background-color: #ffffff;
+}
+.bg_black {
+  background-color: #000000;
+}
+.bg_img {
+  background-image: url(../img/Vincent\ m_Poster\ Gradient_05\ 1.png);
+  width: 100%;
+  height: 100%;
+}
+.btn_contact {
+  border: 2px solid white;
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+.div_white {
+  background-color: #ffffff;
+  transform: translateY(40%);
+  box-shadow: 0px -2px 20px 0px #0000001c;
+}
+.bg {
+  background-color: #f1f3f6;
+  height: 100%;
+  width: 100%;
+}
+.funds {
+  padding-top: 45%;
+}
+.img-balb {
+  padding-top: 15%;
+}
+.white_box {
+  width: 450px;
+  height: 330px;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 10% 0% 0 10%;
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
+.white_box2 {
+  width: 450px;
+  height: 330px;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 0% 10% 0 10%;
+  position: absolute;
+  left: 0;
+}
+.white_box3 {
+  width: 450px;
+  height: 330px;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 10% 0% 0 10%;
+  position: absolute;
+  right: 0;
+  bottom: 30%;
+}
+.box_white {
+  height: 100%;
+  width: 90%;
+  background-color: #ffffff;
+}
+.w_40 {
+  width: 40%;
+}
+.bg_img2 {
+  background-image: url(../img/Vincent\ m_Poster\ Gradient_05\ 1.png);
+  height: 100%;
+  width: 100%;
+}
+.box_white {
+  transform: translateY(-50%);
+}
+.pb_5 {
+  padding-bottom: 25%;
+}
+.w_60 {
+  width: 56%;
+}
+.btn_us {
+  border: 2px solid #000000;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+.border {
+  border: 2px solid rgb(69, 61, 61);
+  
+}

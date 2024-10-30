@@ -1,0 +1,129 @@
+.circl {
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 20%;
+  border-radius: 2% 2% 50% 50%;
+  position: relative;
+}
+.body {
+  background-color: black;
+}
+.circl2 {
+  height: 50px;
+  width: 300px;
+  background-color: white;
+  border-radius: 50% 50%;
+  position: absolute;
+  top: -7%;
+}
+.circl3 {
+  height: 50px;
+  width: 270px;
+  background-color: rgb(237, 179, 97);
+  border-radius: 50%;
+  position: absolute;
+  left: 5%;
+  bottom: -16%;
+}
+.handl {
+  height: 180px;
+  width: 150px;
+  border: 25px solid white;
+  border-bottom: 25px solid transparent;
+  border-left: 25px solid transparent;
+  position: absolute;
+  border-radius: 50%;
+  right: -30%;
+  top: 90%;
+  transform: rotate(42deg);
+}
+.plate {
+  height: 200px;
+  width: 500px;
+  border-radius: 50%;
+  background-color: rgb(204, 217, 130);
+  position: absolute;
+  top: 300%;
+  left: 50%;
+  transform: translatex(-50%);
+  z-index: -1;
+  box-shadow: 2px 2px 2px 2px rgb(215, 215, 114);
+}
+.vapour {
+  position: relative;
+  display: flex;
+  z-index: 1;
+  padding: 0 20px;
+}
+.vapour span {
+  position: relative;
+  bottom: 50px;
+  display: block;
+  margin: 0 2px 50px;
+  background-color: white;
+  width: 100px;
+  height: 200px;
+  border-radius: 50%;
+  animation: chup 5s linear infinite;
+  filter: blur(8px);
+  opacity: 0;
+  animation-delay: calc(var(--i) * -0.5s);
+}
+@keyframes chup {
+  0% {
+    transform: translateY(0) scaleX() (1);
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-150px) scaleX(5);
+  }
+  95% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(-300px) scaleX(10);
+  }
+}
+.box {
+  border: 2px solid #fff;
+  width: 400px;
+  position: relative;
+  overflow: hidden;
+}
+.text {
+  color: #fff;
+  background-color: red;
+  opacity: 0.5;
+  position: absolute;
+  top: -100%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  transition: all 0.5s;
+}
+.box:hover .text {
+  top: 0;
+}
+a {
+  display: inline-block;
+  background-color: #fff;
+  padding: 16px 50px;
+  font-size: 20px;
+  text-decoration: none !important;
+  position: relative;
+  transition: 0.5s;
+  margin-top: 40px;
+}
+a:hover {
+  background-color: aqua;
+  box-shadow: 0px 1px 50px aqua;
+}
+.clr_black {
+  color: black;
+}
+

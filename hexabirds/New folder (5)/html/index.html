@@ -1,0 +1,682 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../asstes/css/style.css">
+    <title>voxel palace</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- slick min css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- slick theam min css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg_clr ">
+     <header class="d-flex w-100 justify-content-center flex-column hero_img position-relative pb-5 overflow-hidden">
+        <div class="container">
+
+            <nav class="d-flex justify-content-between align-items-center mb-5 ">
+
+                <a href=""><img src="../asstes/img/Group 27440.png" alt=""></a>
+                <div class="nav d-flex d-md-flex" id="navid">
+                    <ul class="d-flex align-items-center gap-5 flex-column d-md-flex">
+                        <li><a class="fw_1 fs_22 clr_white ff_Josefin_Sans line" href="">Overview</a></li>
+                        <li><a class="fw_1 fs_22 clr_white ff_Josefin_Sans line line" href="">How to Mint</a></li>
+                        <li><a class="fw_1 fs_22 clr_white ff_Josefin_Sans line line" href="">Roadmap</a></li>
+                        <li><a class="fw_1 fs_22 clr_white ff_Josefin_Sans line line" href="">FAQs</a></li>
+
+
+                    </ul>
+                    <div class="d-flex flex-column text-center">
+                        <a href=""><img class="icon" src="../asstes/img/Group 13.png" alt=""></a>
+                        <a href=""><img class="icon" src="../asstes/img/Group 11.png" alt=""></a>
+                        <a href=""><img class="icon" src="../asstes/img/Group 12.png" alt=""></a>
+                        <div>
+                            <a class="btn_connect ms-4 fw_3 fs_20 clr_white  ff_Josefin_Sans  " href="">Connect
+                                Wallet</a>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="d-md-none d-flex" onclick="navOpen()">
+                    <img src="../asstes/img/menu-icon.png" alt="">
+                </div>
+            </nav>
+            -
+
+        </div>
+        <div class=" d-flex justify-content-lg-center align-items-lg-center flex-grow-1 pb-lg-5 ">
+            <div class="container">
+                <div class="row align-items-center mt-5">
+                    <div class="col-lg-6 col-12 col-sm-12 col-md-6">
+                        <h2 class=" fw_4 fs_26 clr_white ff_Josefin_Sans ">Welcome To</h2>
+                        <h2><span class=" fw_3 fs_26 clr_suqa ff_Josefin_Sans">Voxel Palace</span></h2>
+
+                        <P class="fw_1 fs_18 ff_Josefin_Sans clr_white pt-2 ">Gain access to a community collection of
+                            5,000
+                            VOXEL
+                            PALACE NFTs where each
+                            piece provides partnership to our 500 ETH DAO seeded after the public sales ends.
+                            Your NFT provides you $DIME through dividends from investments made by the
+                            community buying land, single family homes and multi family properties in blue-chip
+                            cities throughout the nation flipping for high profits.</P>
+                        <h2 class="fw_4 fs_48 ff_Josefin_Sans clr_white pt-2">10:20:15:10
+                        </h2>
+                        <h2 class="fw_4 fs_18 ff_Josefin_Sans clr_white mb-5 pt-2">Days left</h2>
+                        <a class="btn_now me-4 " href="">Mint Now</a>
+                        <a class="btn_now " href="">Connect Wallet</a>
+
+                    </div>
+                    <div class="col-lg-6 col-12 col-sm-12 col-md-6  mb-lg-5 mt-5 pt-5">
+                        <img class="w-100 " src="../asstes/img/man img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <img class="position-absolute img_crcl  " src="../asstes/img/Grou crcl.png" alt="">
+        <img class="position-absolute crcl_2  " src="../asstes/img/chota crcl.png" alt="">
+        <img class="position-absolute crcl_3 " src="../asstes/img/chota crcl.png" alt="">
+        <img class="position-absolute img_rigth d-none d-lg-flex  " src="../asstes/img/rigth img.png" alt="">
+        <img class="position-absolute star " src="../asstes/img/Star 1.png" alt="">
+
+
+        </div>
+    </header>
+    </div> -->
+    <!-- ==================section Collect Trade================== -->
+    <!-- <section class="position-relative overflow-hidden">
+        <div class="container">
+            <div class="text-center pt-5 ">
+                <h2 class="fw_3 fs_48 ff_Josefin_Sans clr_white pt-5">Collect, Trade, & Stake your properties to Earn
+                    Your
+                    <h2><span class="fw_3 fs_48 ff_Josefin_Sans clr_suqa">$DIME Token Dividends</span></h2>
+                </h2>
+                <a class="btn_view ms-4 fw_3 fs_20 clr_white  ff_Josefin_Sans btn_connect  " href="">View Portfolio</a>
+            </div>
+            <div class="row mt-5 pb-5 slider_1 ">
+                <div class="col-lg-4 col-6 ms-5 mt-5 mb-5">
+                    <div class="box w-100">
+                        <img class="w-100 " src="../asstes/img/Rectangle 119.png" alt="">
+                        <h3 class="fw_3 fs_29 ff_Josefin_Sans clr_white pt-4">Voxel Palace #001</h3>
+                        <div class="d-flex justify-content-between pt-2">
+                            <h3 class="fw_1 fs_18 ff_Josefin_Sans clr_white">Mint Price</h3>
+                            <h3 class="fw_1 fs_18 ff_Josefin_Sans clr_white">Remaining Time</h3>
+                        </div>
+                        <div class="d-flex justify-content-between pt-2">
+                            <h3 class="fw_1 fs_22 ff_Josefin_Sans clr_white">$40</h3>
+                            <h3 class="fw_1 fs_22 ff_Josefin_Sans clr_white">00 : 10 :05</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 ms-5 mt-5 mb-5">
+                    <div class="box ">
+                        <img class="w-100" src="../asstes/img/Rectangle 119 (1).png" alt="">
+                        <h3 class="fw_3 fs_29 ff_Josefin_Sans clr_white pt-4">Voxel Palace #002</h3>
+                        <div class="d-flex justify-content-between pt-2">
+                            <h3 class="fw_1 fs_18 ff_Josefin_Sans clr_white">Mint Price</h3>
+                            <h3 class="fw_1 fs_18 ff_Josefin_Sans clr_white">Remaining Time</h3>
+                        </div>
+                        <div class="d-flex justify-content-between pt-2">
+                            <h3 class="fw_1 fs_22 ff_Josefin_Sans clr_white">$40</h3>
+                            <h3 class="fw_1 fs_22 ff_Josefin_Sans clr_white">00 : 10 :05</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 ms-5 mt-5 mb-5">
+                    <div class="box ">
+                        <img class="w-100" src="../asstes/img/Rectangle 119 (2).png" alt="">
+                        <h3 class="fw_3 fs_29 ff_Josefin_Sans clr_white pt-4">Voxel Palace #003</h3>
+                        <div class="d-flex justify-content-between pt-2">
+                            <h3 class="fw_1 fs_18 ff_Josefin_Sans clr_white">Mint Price</h3>
+                            <h3 class="fw_1 fs_18 ff_Josefin_Sans clr_white">Remaining Time</h3>
+                        </div>
+                        <div class="d-flex justify-content-between pt-2">
+                            <h3 class="fw_1 fs_22 ff_Josefin_Sans clr_white">$40</h3>
+                            <h3 class="fw_1 fs_22 ff_Josefin_Sans clr_white">00 : 10 :05</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 ms-5 mt-5 mb-5">
+                    <div class="box ">
+                        <img class="w-100" src="../asstes/img/Rectangle 119.png" alt="">
+                        <h3 class="fw_3 fs_29 ff_Josefin_Sans clr_white pt-4">Voxel Palace #001</h3>
+                        <div class="d-flex justify-content-between pt-2">
+                            <h3 class="fw_1 fs_18 ff_Josefin_Sans clr_white">Mint Price</h3>
+                            <h3 class="fw_1 fs_18 ff_Josefin_Sans clr_white">Remaining Time</h3>
+                        </div>
+                        <div class="d-flex justify-content-between pt-2">
+                            <h3 class="fw_1 fs_22 ff_Josefin_Sans clr_white">$40</h3>
+                            <h3 class="fw_1 fs_22 ff_Josefin_Sans clr_white">00 : 10 :05</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 ms-5 mt-5 mb-5">
+                    <div class="box ">
+                        <img class="w-100" src="../asstes/img/Rectangle 119 (1).png" alt="">
+                        <h3 class="fw_3 fs_29 ff_Josefin_Sans clr_white pt-4">Voxel Palace #002</h3>
+                        <div class="d-flex justify-content-between pt-2">
+                            <h3 class="fw_1 fs_18 ff_Josefin_Sans clr_white">Mint Price</h3>
+                            <h3 class="fw_1 fs_18 ff_Josefin_Sans clr_white">Remaining Time</h3>
+                        </div>
+                        <div class="d-flex justify-content-between pt-2">
+                            <h3 class="fw_1 fs_22 ff_Josefin_Sans clr_white">$40</h3>
+                            <h3 class="fw_1 fs_22 ff_Josefin_Sans clr_white">00 : 10 :05</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 ms-5 mt-5 mb-5 ">
+                    <div class="box ">
+                        <img class="w-100" src="../asstes/img/Rectangle 119 (2).png" alt="">
+                        <h3 class="fw_3 fs_29 ff_Josefin_Sans clr_white pt-4">Voxel Palace #003</h3>
+                        <div class="d-flex justify-content-between pt-2">
+                            <h3 class="fw_1 fs_18 ff_Josefin_Sans clr_white">Mint Price</h3>
+                            <h3 class="fw_1 fs_18 ff_Josefin_Sans clr_white">Remaining Time</h3>
+                        </div>
+                        <div class="d-flex justify-content-between pt-2">
+                            <h3 class="fw_1 fs_22 ff_Josefin_Sans clr_white">$40</h3>
+                            <h3 class="fw_1 fs_22 ff_Josefin_Sans clr_white">00 : 10 :05</h3>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="text-center">
+                <img class="pe-5 arrow " src="../asstes/img/Arrow 1.png" alt="">
+                <img class="arrow_2" src="../asstes/img/Arrow 2.png" alt="">
+            </div>
+        </div>
+        <div class="position-absolute img_agl">
+            <img class="w-75 d-none d-lg-flex" src="../asstes/img/xxx.png" alt="">
+        </div>
+        <div class="position-absolute img_agl2">
+            <img class="w-75 d-none d-lg-flex " src="../asstes/img/hhh.png" alt="">
+        </div>
+        <div class="w-25">
+            <img class="position-absolute shadow_img" src="../asstes/img/shodow.png" alt="">
+        </div>
+    </section> -->
+    <!-- ===============section Roadmap=============== -->
+    <section class="position-relative ">
+
+        <div class="container">
+            <h2 class="fs_48 fw_1 ff_Josefin_Sans clr_suqa text-center pt-5">Roadmap</h2>
+            <p class="fw_1 fs_18 ff_Josefin_Sans clr_grye text-center w-75 pe-4 m-auto pt-3 pb-5 mb-5">Voxel Palace is
+                more
+                than a
+                piece of
+                artwork.
+                It’s the
+                future of investing, and offers a
+                unique method of generating passive income and financial education.</p>
+
+            <div class="line_roadmap  ">
+                <div class="crcl_img"></div>
+                <div class="box_roadmap w_40">
+                    <h2 class="fw_4 fs_22 ff_Josefin_Sans clr_suqa  text">Mint</h2>
+                    <p class="fw_1 fs_20 ff_Josefin_Sans clr_grye  text">It’s simple - 5,000 Voxel Palace
+                        NFTs
+                        will
+                        be
+                        minted
+                        onto the blockchain. Mint
+                        price
+                        will
+                        be 0.1 ETH, with a limit of 5 NFTs per wallet.</p>
+
+                </div>
+                <div class="crcl_img_2 pt-5 mb-5"></div>
+                <div class="d-flex justify-content-end pt-5 mb-5 ">
+
+                    <div class="box_roadmap w_40   ">
+                        <h2 class="fw_4 fs_22 ff_Josefin_Sans clr_suqa  text">NFT Reveal
+                        </h2>
+                        <p class="fw_1 fs_20 ff_Josefin_Sans clr_grye text">Less than 24 hours after
+                            mint
+                            we’ll reveal our NFTs so our holders can see what they've minted. Using a series of
+                            X
+                            randomly selected traits, each NFT has a place on
+                            a rarity scale</p>
+
+                    </div>
+
+
+                </div>
+                <div class="crcl_img_3 "></div>
+                <div class="box_roadmap w_40 ">
+                    <h2 class="fw_4 fs_22 ff_Josefin_Sans clr_suqa  text">Token Launch</h2>
+                    <p class="fw_1 fs_20 ff_Josefin_Sans clr_grye  text">We’ll release our $DIME token,
+                        the
+                        first phase of our planned utility</p>
+                </div>
+                <div class="crcl_img_4 pt-5 mb-5"></div>
+                <div class="d-flex justify-content-end pt-5 mb-5">
+
+                    <div class="box_roadmap w_40  ">
+
+                        <h2 class="fw_4 fs_22 ff_Josefin_Sans clr_suqa text">DAO Access</h2>
+                        <p class="fw_1 fs_20 ff_Josefin_Sans clr_grye text">Holders will be placed into a
+                            community-governed DAO, holding fractional power over
+                            the 500 ETH-funded wallet.</p>
+                    </div>
+                </div>
+                <div class="crcl_img_5"></div>
+                <div class="box_roadmap w_40 ">
+                    <h2 class="fw_4 fs_22 ff_Josefin_Sans clr_suqa text">Flip and Sell
+                    </h2>
+                    <p class="fw_1 fs_20 ff_Josefin_Sans clr_grye  text">Using the DAO, holders will get
+                        to
+                        decide on which properties to invest in (with advice
+                        from professionals), and have the power to flip or hold onto property.
+                    </p>
+                </div>
+
+            </div>
+            <div class="crcl_img_6 "></div>
+            <div class="d-flex justify-content-end pt-5 mb-5">
+                <div class="box_roadmap w_40  ">
+                    <h2 class="fw_4 fs_22 ff_Josefin_Sans clr_suqa  text">Relax</h2>
+                    <p class="fw_1 fs_20 ff_Josefin_Sans clr_grye text">Profits from property
+                        investment
+                        will be shared out to holders using our $DIME token. A
+                        percentage of funds will be put back into the DAO to ensure continuous cash flow. Now
+                        you get to enjoy the passive income of Voxel Palace, and remain part of the
+                        community for as long as you wish.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-25">
+            <img class=" home_img  position-absolute w-25 " src="../asstes/img/home.png" alt="">
+        </div>
+        <img class="position-absolute img_home_2" src="../asstes/img/home_img 2.png" alt="">
+        <img class="position-absolute img_dotted" src="../asstes/img/dotted img left.png" alt="">
+        <div class="w-50">
+            <img class="dotted_rigth position-absolute" src="../asstes/img/crcl dotted.png" alt="">
+        </div>
+        <div>
+            <img class="dotted_star position-absolute" src="../asstes/img/dotted star.png" alt="">
+        </div>
+        <img class="dotted_star_2 position-absolute" src="../asstes/img/dotted smol star.png" alt="">
+    </section>
+    <!-- =================section How to Mint================ -->
+    <!-- <section class="pt-5 mt-5">
+        <div class="container">
+            <h2 class="fw_3 fs_48 ff_Josefin_Sans clr_suqa mt-5 pt-5">How to Mint</h2>
+            <p class="fw_1 fs_18 ff_Josefin_Sans clr_grye col-7">Ornare pharetra, ullamcorper pulvinar pretium diam
+                ultrices.
+                Integer mattis eget tortor, eget tincidunt.
+                Sagittis
+                maecenas at amet, dui nibh a. Est nibh</p>
+            <div class="row mt-5">
+                <div class="col-3">
+                    <div class="step_box rounded-4 pt-4 pb-4 ">
+                        <h4 class="fw_1 fs_18 ff_Josefin_Sans clr_grye text">Step 1</h4>
+                        <h1 class="fw_2 fs_24 ff_Josefin_Sans clr_white pt-2 text">Download & Setup Metamask</h1>
+                        <h3 class="fw_1 fs_18 ff_Poppins clr_grye ff_Josefin_Sans pt-2 text">Use Browser over Mobile
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="step_box  rounded-4 pt-4 pb-4 ">
+                        <h4 class="fw_1 fs_18 ff_Josefin_Sans clr_grye text">Step 2</h4>
+                        <h1 class="fw_2 fs_24 ff_Josefin_Sans clr_white pt-2 text">Purchase Ethereum from an
+                            Exchange</h1>
+                        <h3 class="fw_1 fs_18 ff_Poppins clr_grye ff_Josefin_Sans pt-2 text">Rember to account for
+                            Gas
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="step_box  rounded-4 pt-4 pb-4 ">
+                        <h4 class="fw_1 fs_18 ff_Josefin_Sans clr_grye text">Step 3</h4>
+                        <h1 class="fw_2 fs_24 ff_Josefin_Sans clr_white pt-2 text">Send your ETH to Your Metamasks</h1>
+                        <h3 class="fw_1 fs_18 ff_Poppins clr_grye ff_Josefin_Sans pt-2 text">Make sure you have
+                            enough for Mint
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="step_box rounded-4 pt-4 pb-4 ">
+                        <h4 class="fw_1 fs_18 ff_Josefin_Sans clr_grye text">Step 1</h4>
+                        <h1 class="fw_2 fs_24 ff_Josefin_Sans clr_white pt-2 text">Connect Metamask to our Website</h1>
+                        <h3 class="fw_1 fs_18 ff_Poppins clr_grye ff_Josefin_Sans pt-2 text">Connect to our website to
+                            mint
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="step_box  rounded-4 pt-4 pb-4">
+                        <h4 class="fw_1 fs_18 ff_Josefin_Sans clr_grye text">Step 5</h4>
+                        <h1 class="fw_2 fs_24 ff_Josefin_Sans clr_white pt-2 text">Set your Gas fee Priority</h1>
+                        <h3 class="fw_1 fs_18 ff_Poppins clr_grye ff_Josefin_Sans pt-2 text">Higher Priority is faster &
+                            expensive
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="step_box  rounded-4 pt-4 pb-4 ">
+                        <h4 class="fw_1 fs_18 ff_Josefin_Sans clr_grye text">Step 6</h4>
+                        <h1 class="fw_2 fs_24 ff_Josefin_Sans clr_white pt-2 text">Confirm your Mint Transaction</h1>
+                        <h3 class="fw_1 fs_18 ff_Poppins clr_grye ff_Josefin_Sans pt-2 text">You successfully minted an
+                            Ape
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="step_box rounded-4 pt-4 pb-4 ">
+                        <h4 class="fw_1 fs_18 ff_Josefin_Sans clr_grye text">Step 7</h4>
+                        <h1 class="fw_2 fs_24 ff_Josefin_Sans clr_white pt-2 text">View your NFT on Opensea</h1>
+                        <h3 class="fw_1 fs_18 ff_Poppins clr_grye ff_Josefin_Sans pt-2 text">Your NFT will be in your
+                            opensea account
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="step_box  rounded-4  pt-4 pb-4 ">
+                        <h4 class="fw_1 fs_18 ff_Josefin_Sans clr_grye text">Step 1</h4>
+                        <h1 class="fw_2 fs_24 ff_Josefin_Sans clr_white pt-2 text">Wait for official reveal</h1>
+                        <h3 class="fw_1 fs_18 ff_Poppins clr_grye ff_Josefin_Sans pt-2 text">Wait to see which colorful
+                            Ape you Got
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section> -->
+    <!-- =================FAQs================ -->
+     <section class="bg_clr position-relative overflow-hidden">
+        <div class="container">
+            <div class="text-center mt-5 mb-5">
+                <h2 class="fw_4 fs_48 clr_suqa ff_Josefin_Sans">FAQs</h2>
+            </div>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            <h3 class="fw_3 fs_23 ff_Josefin_Sans">How to mint?</h3>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <h3 class="fw_2 fs_23 ff_Josefin_Sans clr_white">When will Voxel Palace minting be open?
+                            </h3>
+                            <p class=" fw_1 ff_Poppins fs_18 clr_white">Our whitelist minting will begin Mar 1, 2022 at
+                                5PM EST and will
+                                be followed by
+                                a public mint at 7 PM EST lasting for
+                                another 24 hours or until Voxel Palace sells out.</p>.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item mt-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            <h3 class="fw_3 fs_23 ff_Josefin_Sans">How can i join the whitelist?</h3>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <h3 class="fw_2 fs_23 ff_Josefin_Sans clr_white">When will Voxel Palace minting be open?
+                            </h3>
+                            <p class=" fw_1 ff_Poppins fs_18 clr_white">Our whitelist minting will begin Mar 1, 2022 at
+                                5PM EST and will
+                                be followed by
+                                a public mint at 7 PM EST lasting for
+                                another 24 hours or until Voxel Palace sells out.</p>.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item mt-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            <h3 class="fw_3 fs_23 ff_Josefin_Sans">What is the cost and availability?</h3>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <h3 class="fw_2 fs_23 ff_Josefin_Sans clr_white">When will Voxel Palace minting be open?
+                            </h3>
+                            <p class=" fw_1 ff_Poppins fs_18 clr_white">Our whitelist minting will begin Mar 1, 2022 at
+                                5PM EST and will
+                                be followed by
+                                a public mint at 7 PM EST lasting for
+                                another 24 hours or until Voxel Palace sells out.</p>.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item mt-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFour" aria-expanded="false"
+                            aria-controls="flush-collapseFour">
+                            <h3 class="fw_3 fs_23 ff_Josefin_Sans">What is the max i can mint?</h3>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <h3 class="fw_2 fs_23 ff_Josefin_Sans clr_white">When will Voxel Palace minting be open?
+                            </h3>
+                            <p class=" fw_1 ff_Poppins fs_18 clr_white">Our whitelist minting will begin Mar 1, 2022 at
+                                5PM EST and will
+                                be followed by
+                                a public mint at 7 PM EST lasting for
+                                another 24 hours or until Voxel Palace sells out.</p>.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item mt-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFive" aria-expanded="false"
+                            aria-controls="flush-collapseFive">
+                            <h3 class="fw_3 fs_23 ff_Josefin_Sans">How can i make money through $DIME?</h3>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <h3 class="fw_2 fs_23 ff_Josefin_Sans clr_white">When will Voxel Palace minting be open?
+                            </h3>
+                            <p class=" fw_1 ff_Poppins fs_18 clr_white">Our whitelist minting will begin Mar 1, 2022 at
+                                5PM EST and will
+                                be followed by
+                                a public mint at 7 PM EST lasting for
+                                another 24 hours or until Voxel Palace sells out.</p>.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-25">
+                <img class="star_0" src="../asstes/img/star last.png" alt="">
+            </div>
+            <div class="text-center mt-5 pt-5">
+                <img src="../asstes/img/Group 27440.png" alt="">
+            </div>
+        </div>
+        <div class="border mb-3 mt-3"></div>
+        <div class="text-center ">
+            <span>
+                <svg width="47" height="45" viewBox="0 0 47 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g filter="white">
+                        <circle cx="22.4884" cy="19.5035" r="18.7534" stroke="url(#paint0_linear_214_478)"
+                            stroke-width="1.50027" />
+                    </g>
+                    <g filter="white">
+                        <path
+                            d="M33.3549 13.1272C32.5533 13.489 31.7041 13.7279 30.8347 13.8361C31.7501 13.2719 32.4355 12.3873 32.7643 11.3454C31.9159 11.8531 30.9756 12.2226 29.9747 12.4284C29.3143 11.7044 28.4393 11.2242 27.4854 11.0623C26.5316 10.9005 25.5523 11.0661 24.6996 11.5335C23.847 12.0008 23.1687 12.7437 22.7701 13.6468C22.3715 14.55 22.2749 15.5628 22.4953 16.528C18.8466 16.3514 15.6145 14.5541 13.4494 11.8393C13.0558 12.5252 12.8505 13.3074 12.8552 14.1032C12.8552 15.6672 13.6314 17.042 14.8072 17.8497C14.1103 17.8269 13.4288 17.6337 12.8196 17.2862V17.3411C12.8192 18.3805 13.1695 19.3881 13.8111 20.1928C14.4528 20.9976 15.3462 21.5499 16.3398 21.7562C15.696 21.9331 15.0216 21.9597 14.3665 21.834C14.6485 22.7285 15.1958 23.5105 15.9321 24.0708C16.6684 24.6311 17.5569 24.9417 18.4737 24.9594C16.921 26.2088 15.0038 26.8869 13.0301 26.8848C12.6822 26.8848 12.3351 26.8638 11.9863 26.8235C13.9987 28.1446 16.3385 28.8459 18.728 28.844C26.8042 28.844 31.2156 21.9876 31.2156 16.0523C31.2156 15.8602 31.2156 15.6682 31.2022 15.4761C32.064 14.8403 32.8073 14.0509 33.3968 13.1455L33.3549 13.1272Z"
+                            fill="white" />
+                        <path
+                            d="M30.8658 14.0861L30.7025 13.6215C31.3733 13.2082 31.9139 12.6116 32.2675 11.9038C31.5662 12.252 30.814 12.5131 30.0255 12.6752L29.8851 12.7041L29.7885 12.5982C29.1655 11.9151 28.3409 11.4631 27.4433 11.3108C26.5457 11.1585 25.6239 11.3142 24.8208 11.7544C24.0175 12.1947 23.3773 12.8953 23.0007 13.7486C22.624 14.6019 22.5326 15.5594 22.741 16.4719L22.8149 16.7957L22.4831 16.7797C18.8929 16.606 15.7001 14.8954 13.4975 12.2947C13.2376 12.8577 13.1035 13.4751 13.1072 14.1016L13.1072 14.1032C13.1072 15.5823 13.8409 16.8802 14.9498 17.6419L15.6598 18.1296L14.7989 18.1015C14.2071 18.0822 13.626 17.9468 13.0865 17.7044C13.1574 18.5568 13.4775 19.3701 14.0082 20.0357C14.6137 20.7952 15.4559 21.3153 16.391 21.5095L16.4066 21.9992C15.8655 22.1479 15.304 22.1962 14.7484 22.143C15.0378 22.8275 15.498 23.4238 16.0847 23.8703C16.7789 24.3985 17.6158 24.6908 18.4786 24.7075L19.1722 24.7208L18.6317 25.1557C17.0346 26.4408 15.0617 27.139 13.0298 27.1368M30.8658 14.0861L13.0301 26.8848M30.8658 14.0861C31.4996 14.0073 32.1228 13.861 32.7255 13.65M30.8658 14.0861L33.0036 13.2767M13.0298 27.1368L13.0301 26.8848M13.0298 27.1368C13.0299 27.1368 13.03 27.1368 13.0301 27.1368V26.8848M13.0298 27.1368C13.0201 27.1368 13.0103 27.1368 13.0006 27.1367M13.0301 26.8848C12.865 26.8848 12.7001 26.8801 12.5351 26.8708C12.6885 26.963 12.8437 27.0517 13.0006 27.1367M13.0006 27.1367C12.8197 27.1361 12.6391 27.13 12.4586 27.1187C12.2993 27.024 12.1418 26.9256 11.9863 26.8235L18.728 28.844C26.8042 28.844 31.2156 21.9876 31.2156 16.0523C31.2156 15.8602 31.2156 15.6682 31.2022 15.4761C31.9552 14.9205 32.6178 14.2477 33.1663 13.4827C33.0207 13.5423 32.8737 13.5981 32.7255 13.65M13.0006 27.1367C14.761 28.0916 16.7268 28.5936 18.7278 28.592H18.728C26.6307 28.592 30.9636 21.8854 30.9636 16.0523C30.9636 15.8588 30.9635 15.6755 30.9509 15.4936L30.9412 15.3555L31.0526 15.2733C31.6794 14.8109 32.2418 14.2647 32.7255 13.65M32.7255 13.65C32.8213 13.5282 32.9141 13.4037 33.0036 13.2767M33.0036 13.2767C32.4854 13.4841 31.9495 13.6412 31.4031 13.7462C31.264 13.8555 31.1185 13.9572 30.9669 14.0506L30.8347 13.8361L30.8036 13.586C30.9682 13.5655 31.132 13.5402 31.2949 13.5102C31.8802 13.0369 32.3403 12.4189 32.6309 11.713L33.0036 13.2767ZM32.4306 11.5354C31.6717 11.9459 30.8462 12.2492 29.9747 12.4284C29.3143 11.7044 28.4393 11.2242 27.4854 11.0623C26.5316 10.9005 25.5523 11.0661 24.6996 11.5335C23.847 12.0008 23.1687 12.7437 22.7701 13.6468C22.4065 14.4708 22.2942 15.386 22.4446 16.273L32.4306 11.5354Z"
+                            stroke="url(#paint2_linear_214_478)" stroke-width="0.503991" />
+                    </g>
+                    <defs>
+                        <filter id="filter0_b_214_478" x="-46.0241" y="-49.0089" width="137.025" height="137.025"
+                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feGaussianBlur in="BackgroundImageFix" stdDeviation="24.5045" />
+                            <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_214_478" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_214_478"
+                                result="shape" />
+                        </filter>
+                        <filter id="filter1_d_214_478" x="0.984327" y="3.0005" width="45.4149" height="41.8464"
+                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feColorMatrix in="SourceAlpha" type="matrix"
+                                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                            <feOffset dx="1.00018" dy="4.00073" />
+                            <feGaussianBlur stdDeviation="6.00109" />
+                            <feComposite in2="hardAlpha" operator="out" />
+                            <feColorMatrix type="matrix"
+                                values="0 0 0 0 0.00392157 0 0 0 0 0.772549 0 0 0 0 0.972549 0 0 0 1 0" />
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_214_478" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_214_478" result="shape" />
+                        </filter>
+                        <linearGradient id="paint0_linear_214_478" x1="2.98486" y1="19.5035" x2="41.992" y2="19.5035"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#04E6B0" />
+                            <stop offset="1" stop-color="#00C2FF" />
+                        </linearGradient>
+                        <linearGradient id="paint1_linear_214_478" x1="11.9863" y1="19.923" x2="33.3968" y2="19.923"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#04E6B0" />
+                            <stop offset="1" stop-color="#00C2FF" />
+                        </linearGradient>
+                        <linearGradient id="paint2_linear_214_478" x1="11.9863" y1="19.923" x2="33.3968" y2="19.923"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#04E6B0" />
+                            <stop offset="1" stop-color="#00C2FF" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+
+            </span>
+            <span class="ms-3 me-3">
+                <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_b_214_481)">
+                        <circle cx="19.4996" cy="19.5035" r="19.5035" fill="url(#paint0_linear_214_481)" />
+                    </g>
+                    <path opacity="0.7"
+                        d="M26.2176 13.2873C24.9209 12.6933 23.5309 12.2542 22.0773 12.0045C22.0644 12.002 22.051 12.0036 22.039 12.0091C22.027 12.0147 22.017 12.0239 22.0104 12.0355C21.8324 12.3532 21.6341 12.7673 21.4951 13.0945C19.9535 12.8605 18.3862 12.8605 16.8446 13.0945C16.6898 12.7319 16.5152 12.3783 16.3216 12.0355C16.3151 12.0238 16.3052 12.0144 16.2932 12.0085C16.2812 12.0027 16.2678 12.0007 16.2547 12.0028C14.802 12.2525 13.412 12.6915 12.1144 13.2865C12.1032 13.2912 12.0938 13.2993 12.0873 13.3097C9.44971 17.2487 8.72675 21.0903 9.08187 24.8838C9.08286 24.893 9.0857 24.902 9.09022 24.9102C9.09473 24.9183 9.10083 24.9254 9.10815 24.9311C10.6476 26.0697 12.3647 26.937 14.1875 27.4968C14.2002 27.5008 14.2138 27.5008 14.2265 27.4968C14.2392 27.4928 14.2504 27.485 14.2587 27.4744C14.6503 26.9406 14.9995 26.3767 15.2978 25.7843C15.3156 25.7499 15.2986 25.7086 15.2631 25.6948C14.7155 25.4853 14.185 25.2326 13.6764 24.9389C13.6673 24.9336 13.6596 24.926 13.654 24.917C13.6485 24.9079 13.6452 24.8976 13.6445 24.8869C13.6438 24.8762 13.6458 24.8656 13.6502 24.8559C13.6546 24.8461 13.6613 24.8377 13.6697 24.8312C13.7764 24.7512 13.8832 24.6677 13.9849 24.5841C13.9941 24.5766 14.0051 24.5718 14.0168 24.5703C14.0285 24.5688 14.0403 24.5706 14.0511 24.5755C17.3794 26.0943 20.984 26.0943 24.2733 24.5755C24.2841 24.5703 24.2961 24.5683 24.3079 24.5696C24.3198 24.571 24.331 24.5757 24.3403 24.5833C24.442 24.6677 24.548 24.7512 24.6556 24.8312C24.6641 24.8375 24.6709 24.8459 24.6754 24.8555C24.6799 24.8652 24.682 24.8758 24.6815 24.8864C24.681 24.8971 24.6779 24.9075 24.6725 24.9166C24.6671 24.9258 24.6595 24.9334 24.6505 24.9389C24.1437 25.235 23.6165 25.4856 23.063 25.6939C23.0545 25.6971 23.0468 25.702 23.0403 25.7084C23.0339 25.7148 23.0288 25.7226 23.0255 25.7311C23.0222 25.7397 23.0208 25.7489 23.0213 25.758C23.0217 25.7672 23.0241 25.7762 23.0283 25.7843C23.3334 26.3758 23.6826 26.9389 24.0665 27.4736C24.0745 27.4845 24.0856 27.4927 24.0984 27.497C24.1111 27.5014 24.1249 27.5016 24.1377 27.4977C25.9637 26.9394 27.6835 26.0717 29.2247 24.9311C29.2323 24.9258 29.2386 24.9189 29.2432 24.9108C29.2479 24.9028 29.2509 24.8939 29.2519 24.8846C29.6756 20.4988 28.5416 16.6882 26.2439 13.3114C26.2383 13.3005 26.2289 13.2919 26.2176 13.2873ZM15.7953 22.5738C14.7935 22.5738 13.9671 21.6534 13.9671 20.5247C13.9671 19.3951 14.7774 18.4756 15.7953 18.4756C16.8208 18.4756 17.6396 19.4028 17.6235 20.5247C17.6235 21.6543 16.8132 22.5738 15.7953 22.5738ZM22.5545 22.5738C21.5519 22.5738 20.7264 21.6534 20.7264 20.5247C20.7264 19.3951 21.5358 18.4756 22.5545 18.4756C23.5801 18.4756 24.3988 19.4028 24.3827 20.5247C24.3827 21.6543 23.5809 22.5738 22.5545 22.5738Z"
+                        fill="white" />
+                    <defs>
+                        <filter id="filter0_b_214_481" x="-49.0128" y="-49.0089" width="137.025" height="137.025"
+                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feGaussianBlur in="BackgroundImageFix" stdDeviation="24.5045" />
+                            <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_214_481" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_214_481"
+                                result="shape" />
+                        </filter>
+                        <linearGradient id="paint0_linear_214_481" x1="-0.00390625" y1="0" x2="31.3231" y2="45.0103"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="white" stop-opacity="0.08" />
+                            <stop offset="1" stop-color="white" stop-opacity="0.03" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+
+            </span>
+            <span>
+                <svg width="40" height="39" viewBox="0 0 40 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_b_214_484)">
+                        <circle cx="19.5114" cy="19.5035" r="19.5035" fill="url(#paint0_linear_214_484)" />
+                    </g>
+                    <path opacity="0.7" fill-rule="evenodd" clip-rule="evenodd"
+                        d="M30.0134 22.5542V21.5091C30.0134 21.4124 29.9201 21.3424 29.8284 21.369L24.8925 22.796C24.8658 22.8026 24.8425 22.8176 24.8241 22.8376C24.2955 23.4216 23.8462 23.8135 23.7272 23.9173L23.7189 23.9245C23.4122 24.1845 23.0321 24.3262 22.6321 24.3262H20.8451V22.5042H22.2653C22.302 22.5042 22.337 22.4909 22.3637 22.4676L22.547 22.2992C22.6254 22.2275 22.7188 22.1408 22.8304 22.0291C22.8399 22.0197 22.8495 22.0101 22.8593 22.0004C22.918 21.9419 22.9807 21.8794 23.0421 21.8108C23.1155 21.7391 23.1872 21.6591 23.2538 21.5807C23.3655 21.4607 23.4722 21.3357 23.5839 21.204C23.6639 21.1173 23.7373 21.019 23.809 20.9206C23.889 20.8273 23.9673 20.7222 24.0406 20.6222C24.068 20.5821 24.097 20.5416 24.1267 20.5001C24.155 20.4606 24.1839 20.4203 24.2123 20.3789C24.2657 20.2988 24.319 20.2138 24.364 20.1338C24.5041 19.9171 24.6224 19.6854 24.7225 19.4537C24.7684 19.3544 24.8051 19.2499 24.8407 19.1484C24.8452 19.1356 24.8497 19.1229 24.8541 19.1103C24.8941 18.9919 24.9275 18.8803 24.9525 18.7619C25.0125 18.4835 25.0258 18.2068 24.9992 17.9301C24.9925 17.8434 24.9858 17.7584 24.9658 17.6784V17.665C24.9591 17.6083 24.9458 17.545 24.9275 17.4867C24.8675 17.2166 24.7741 16.9466 24.6558 16.6815C24.6158 16.5831 24.5691 16.4831 24.5241 16.3915C24.4174 16.1931 24.3057 15.9947 24.179 15.803C24.1536 15.7625 24.1255 15.7215 24.0975 15.6806C24.0759 15.649 24.0543 15.6175 24.034 15.5863C23.9538 15.4626 23.8636 15.3433 23.776 15.2275C23.7563 15.2014 23.7366 15.1754 23.7173 15.1496C23.6656 15.0817 23.609 15.0139 23.5521 14.9456C23.5209 14.9082 23.4896 14.8706 23.4589 14.8328C23.3722 14.7278 23.2872 14.6278 23.2005 14.5294C22.8905 14.1794 22.5654 13.8627 22.2753 13.5926C22.222 13.5393 22.1636 13.4859 22.1036 13.4343C21.8786 13.2292 21.6735 13.0508 21.5019 12.9125C21.4503 12.8728 21.404 12.8337 21.3609 12.7973C21.3316 12.7726 21.3038 12.749 21.2768 12.7275C21.2248 12.6887 21.1796 12.6543 21.1417 12.6254C21.1177 12.6071 21.0966 12.591 21.0784 12.5774C21.0651 12.5674 21.0501 12.5608 21.0351 12.5557L20.8451 12.5024V10.9288C20.8451 10.6721 20.7417 10.442 20.5767 10.2737C20.4117 10.1053 20.1816 10.002 19.9283 10.002C19.4215 10.002 19.0114 10.417 19.0114 10.9288V11.989L18.9164 11.9623L18.658 11.889L18.423 11.824C18.4223 11.824 18.4216 11.8237 18.4208 11.8233C18.4196 11.8228 18.4182 11.8223 18.4163 11.8223H18.4113L16.6276 11.3389C16.5493 11.3172 16.4826 11.4022 16.5226 11.4739L16.8077 12.0006C16.8239 12.0411 16.8444 12.0816 16.8654 12.1232C16.8791 12.1501 16.8929 12.1775 16.906 12.2057C16.9527 12.299 16.9994 12.3974 17.0444 12.4957C17.0844 12.5824 17.1244 12.6674 17.1711 12.7608C17.1907 12.8047 17.2107 12.8491 17.231 12.8942C17.3055 13.0596 17.3838 13.2336 17.4611 13.4209C17.5278 13.5793 17.5945 13.7376 17.6528 13.9027C17.8129 14.3177 17.9645 14.7611 18.0963 15.2163C18.129 15.3181 18.1552 15.4167 18.1818 15.5166C18.193 15.5589 18.2043 15.6015 18.2163 15.6447L18.2346 15.7246C18.2879 15.9364 18.3346 16.1464 18.368 16.3581C18.3946 16.5031 18.4196 16.6415 18.433 16.7815C18.453 16.9399 18.473 17.0983 18.4797 17.2566C18.493 17.4016 18.4996 17.5533 18.4996 17.6984C18.4996 18.0684 18.4663 18.4251 18.3879 18.7619C18.383 18.78 18.3781 18.7983 18.3732 18.8168C18.3512 18.8987 18.3285 18.9837 18.3013 19.0653C18.2767 19.1527 18.2448 19.2401 18.2116 19.3309C18.1999 19.363 18.188 19.3955 18.1762 19.4287C18.1741 19.4345 18.1719 19.4404 18.1697 19.4464C18.1451 19.5124 18.1202 19.5796 18.0896 19.6454C17.9245 20.0421 17.7195 20.4372 17.5078 20.8073C17.1977 21.3557 16.886 21.8375 16.6676 22.1475C16.6543 22.1676 16.6413 22.1866 16.6287 22.205C16.6131 22.2278 16.5982 22.2496 16.5843 22.2709C16.516 22.3675 16.586 22.5042 16.7043 22.5042H19.0114V24.3262H16.6776C16.0509 24.3262 15.4708 23.9712 15.1907 23.4027C15.0457 23.1177 14.989 22.8043 15.0224 22.4976C15.0307 22.4059 14.9623 22.3192 14.869 22.3192H10.1548C10.0748 22.3192 10.0098 22.3842 10.0098 22.4642V22.5609C10.0098 25.5681 12.4386 28.0052 15.4357 28.0052H23.8923C25.4775 28.0052 26.3776 26.5607 27.2623 25.1409C27.5089 24.7451 27.7543 24.3513 28.0131 23.9912C28.4781 23.3444 29.5967 22.8309 29.9234 22.6909C29.9767 22.6676 30.0134 22.6142 30.0134 22.5542ZM11.27 20.1721L11.2 20.2822C11.1383 20.3772 11.2067 20.5039 11.3233 20.5039H15.6641C15.7125 20.5039 15.7575 20.4806 15.7842 20.4405C15.8408 20.3539 15.8942 20.2639 15.9425 20.1721C16.3176 19.542 16.651 18.8603 16.7727 18.3568C17.0577 17.1333 16.4493 15.1679 15.7441 13.5876C15.6975 13.4826 15.5525 13.4726 15.4908 13.5693L11.27 20.1721Z"
+                        fill="white" />
+                    <defs>
+                        <filter id="filter0_b_214_484" x="-49.0011" y="-49.0089" width="137.025" height="137.025"
+                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feGaussianBlur in="BackgroundImageFix" stdDeviation="24.5045" />
+                            <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_214_484" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_214_484"
+                                result="shape" />
+                        </filter>
+                        <linearGradient id="paint0_linear_214_484" x1="0.0078125" y1="0" x2="31.3348" y2="45.0103"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="white" stop-opacity="0.08" />
+                            <stop offset="1" stop-color="white" stop-opacity="0.03" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+
+            </span>
+        </div>
+    </section> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- jquery.min.js  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+    <!-- slick.min.js  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+    <script>
+        $('.slider_1').slick({
+            slidesToShow: 3,
+            arrows: true,
+            slidesToScroll: 2,
+            autoplay: false,
+            prevArrow: $('.arrow'),
+            nextArrow: $('.arrow_2'),
+            autoplaySpeed: 1000,
+            responsive: [{
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 1020,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 770,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+            ]
+        });
+    </script>
+    <script>
+
+        let nav = document.getElementById("navid")
+
+        function navOpen() {
+            nav.classList.toggle("start-0")
+        }
+        function navClose() {
+            nav.classList.remove("start-0")
+        }
+
+    </script>
+</body>
+
+</html>
